@@ -30,6 +30,11 @@ export function viewHome(state) {
       <div class="panel"><h3>1 · Open the planner</h3><p>The starter budget is pre-filled with realistic figures for a ${money(5200)} take-home income. Change the income, edit any amount, and watch totals, the needs/wants/savings split and the verdict update instantly.</p><p><a href="#/planner">Open the Budget Planner →</a></p></div>
       <div class="panel"><h3>2 · Or steal a template</h3><p>Four complete budgets — family of four, city couple, first job, tight month — each with a note on the thinking behind it. Load one, then make it yours.</p><p><a href="#/templates">Browse templates →</a></p></div>
     </div></section>
+  <section class="block"><h2>The one-page method</h2>
+    <div class="two-col">
+      <div class="panel"><h3>Give every dollar a job</h3><p>A budget is finished only when income minus planned equals zero — not because you must spend it all, but because 'left unassigned' money quietly evaporates. In the planner, aim the leftover at a savings category until the unassigned line reads $0.</p></div>
+      <div class="panel"><h3>Review little, review often</h3><p>Twenty minutes on payday beats a January spreadsheet marathon. Check the three categories that drifted most, move one number, and close the tab. The planner saves as you type, so there is nothing to file.</p></div>
+    </div></section>
   <section class="block"><h2>Then set one goal</h2>
     <div class="callout"><p><strong>A budget without a goal is just accounting.</strong> Pick a target — a house deposit, a debt-free date, three months of expenses — and the <a href="#/savings">Savings Goal calculator</a> turns it into one monthly number you can paste straight into the planner.</p></div></section>`;
 }
