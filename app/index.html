@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HomeLedger — Household Budget Planner</title>
+<meta name="description" content="HomeLedger: a free household budget planner with an interactive monthly budget table, a 50/30/20 analyser, a savings-goal calculator, a bill calendar and ready-made budget templates.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#/">
+    <span class="brand-mark" aria-hidden="true">$</span>
+    <span class="brand-text">Home<em>Ledger</em></span>
+  </a>
+  <nav class="mainnav" aria-label="Main">
+    <a href="#/" data-nav="home">Home</a>
+    <a href="#/planner" data-nav="planner">Budget Planner</a>
+    <a href="#/templates" data-nav="templates">Templates</a>
+    <a href="#/savings" data-nav="savings">Savings Goal</a>
+    <a href="#/bills" data-nav="bills">Bill Calendar</a>
+    <a href="#/guides" data-nav="guides">Guides &amp; FAQ</a>
+  </nav>
+</header>
+<main id="app" tabindex="-1"></main>
+<footer class="sitefoot">
+  <p><strong>HomeLedger</strong> is a planning tool, not financial advice. Your budget lives only in this browser (local storage) — nothing is uploaded anywhere.</p>
+  <p class="foot-small">Static site: all calculators run locally from the files shipped with this page.</p>
+</footer>
+<script type="module" src="main.js"></script>
+</body>
+</html>
